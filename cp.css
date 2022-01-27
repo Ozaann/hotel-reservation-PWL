@@ -1,0 +1,196 @@
+@font-face {
+	src: url(fonts/Proxima-Regular.otf);
+	font-family: Proxima;
+}
+@font-face {
+	src: url(fonts/Proxima-Bold.otf);
+	font-family: Blody;
+}
+body{
+  font-family: Proxima;
+}
+.wrap{
+  height: 350px;
+  border: 0px solid black;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap label, .wrap button{
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+.wrap input{
+  box-shadow: 0px 1px rgba(0,0,0,0.3);
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.wrap button{
+  color: white;
+  border: 0px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 105px;
+  margin-top: 10px;
+  background-color: red;
+}
+.wrap button:active, .wrap button:focus,
+.wrap input:active, .wrap input:focus{
+  -moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+.wrap h3{
+  display: block;
+}
+.containing{
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  border: 0px solid black;
+}
+.containing b{
+  display: block;
+}
+
+h1{
+	margin-top: 1em;
+	margin-left: 1rem;
+}
+.container-fluid{
+	font-weight: bold;
+}
+.accordion {
+	margin: 5px;
+	border-radius: 10px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+	font-size: 20px;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+	font-weight: bold;
+}
+
+.accordion:hover,.accordion:active,.accordion:focus{
+	-moz-outline-style: none;
+	outline:none;
+	outline: 0;
+	color: white;
+  background-color: #DF0000;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+div.panel.show {
+    display: block !important;
+}
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 10%;
+  height: 100%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	color: white;
+  background-color: #DF0000;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+	color: white;
+  background-color: #DF0000;
+}
+
+/* Style the tab content */
+.tabcontent {
+	background-color: #f1f1f1;
+  float: left;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  width: 90%;
+  height: 100%;
+}
+table {
+	font-size: 15px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr, th{
+	text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.verfing{
+	color: blue;
+}
+.verfed{
+	color: green;
+}
+.completed{
+	color: grey;
+}
+.canceled{
+	color: red;
+}
+.verfi{
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	background-color: green;
+}
+.cancl{
+	border-radius: 5px;
+	width: 200px;
+	border: 0px;
+	color: white;
+	background-color: red;
+}
+.tabcontent button{
+	padding: 5px;
+	margin-bottom: 10px;
+}

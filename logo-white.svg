@@ -1,0 +1,17 @@
+<svg id="logo-white" xmlns="http://www.w3.org/2000/svg" width="153.2" height="59" viewBox="0 0 153.2 59">
+  <text id="Lorem" transform="translate(50 40)" stroke="#190000" stroke-width="0.2" font-size="35" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">Lorem</tspan></text>
+  <g id="Group_36" data-name="Group 36">
+    <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(30 10)" fill="#100" stroke="#fff" stroke-width="1.5">
+      <rect width="18" height="38" stroke="none"/>
+      <rect x="0.75" y="0.75" width="16.5" height="36.5" fill="none"/>
+    </g>
+    <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(0 10)" fill="#100" stroke="#fff" stroke-width="1.5">
+      <rect width="18" height="38" stroke="none"/>
+      <rect x="0.75" y="0.75" width="16.5" height="36.5" fill="none"/>
+    </g>
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(15 0)" fill="#100" stroke="#fff" stroke-width="1.5">
+      <rect width="19" height="59" stroke="none"/>
+      <rect x="0.75" y="0.75" width="17.5" height="57.5" fill="none"/>
+    </g>
+  </g>
+</svg>

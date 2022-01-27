@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="759.648" viewBox="0 0 1920 759.648">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.595" y1="1.1" x2="0.036" y2="0.113" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff407b"/>
+      <stop offset="1" stop-color="#003d48"/>
+    </linearGradient>
+  </defs>
+  <g id="bkg1" transform="translate(0 -99.499)">
+    <g id="backgr-2" transform="translate(0 100)" fill="url(#linear-gradient)">
+      <path d="M 1919.5 758.5 L 928 758.5 L 0.5 758.5 L 0.5 0.5 L 1919.5 0.5 L 1919.5 758.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 758 L 928 758 L 1919 758 L 1919 1 L 1 1 M 0 0 L 1920 0 L 1920 759 L 928 759 L 0 759 L 0 0 Z" stroke="none"/>
+    </g>
+    <g id="Polygon_5" data-name="Polygon 5" transform="translate(455.627 821.461) rotate(-171)" fill="#fb0000">
+      <path d="M 396.2114562988281 420.5 L 0.7885394096374512 420.5 L 198.5 1.172418475151062 L 396.2114562988281 420.5 Z" stroke="none"/>
+      <path d="M 198.5 2.344879150390625 L 1.577117919921875 420 L 395.4228820800781 420 L 198.5 2.344879150390625 M 198.5 0 L 397 421 L 0 421 L 198.5 0 Z" stroke="none"/>
+    </g>
+    <path id="Path_20" data-name="Path 20" d="M2,706.777,167.459,612.3,3,857.52Z" fill="#fff" stroke="#000" stroke-width="1"/>
+    <path id="Path_21" data-name="Path 21" d="M1370.232,100,1852.52,498.444,1596.3,858.182h322.2l.537-757.833Z" fill="#fff" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

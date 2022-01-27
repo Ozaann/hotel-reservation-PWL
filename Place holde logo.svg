@@ -1,0 +1,41 @@
+<svg id="Place_holde_logo" data-name="Place holde logo" xmlns="http://www.w3.org/2000/svg" width="116.2" height="50" viewBox="0 0 116.2 50">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke: #000;
+      }
+
+      .cls-1 {
+        stroke-width: 0.2px;
+        font-size: 25px;
+        font-family: SegoeUI-BoldItalic, Segoe UI;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <text id="Lorem" class="cls-1" transform="translate(43 30)"><tspan x="0" y="0">Lorem</tspan></text>
+  <g id="Group_36" data-name="Group 36" transform="translate(0.305 2.379)">
+    <g id="Rectangle_22" data-name="Rectangle 22" class="cls-2" transform="translate(25.695 8.621)">
+      <rect class="cls-3" width="14" height="28"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="13" height="27"/>
+    </g>
+    <g id="Rectangle_20" data-name="Rectangle 20" class="cls-2" transform="translate(-0.305 8.621)">
+      <rect class="cls-3" width="14" height="28"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="13" height="27"/>
+    </g>
+    <g id="Rectangle_21" data-name="Rectangle 21" class="cls-2" transform="translate(12.695 -2.379)">
+      <rect class="cls-3" width="15" height="50"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="14" height="49"/>
+    </g>
+  </g>
+</svg>

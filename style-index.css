@@ -1,0 +1,536 @@
+/*=========================DO NOT CHANGE!!!!!!===========================*/
+@font-face {
+	src: url(fonts/Proxima-Regular.otf);
+	font-family: Proxima;
+}
+@font-face {
+	src: url(fonts/Proxima-Bold.otf);
+	font-family: Blody;
+}
+*:focus,
+*:active,
+*:active,
+*:focus,
+input:focus,
+input:active, {
+  -moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+	/*========================== CHANGEABLE ==============================*/
+.sticky{
+	position: fixed;
+	z-index: 1;
+}
+.right-pad{
+	padding-top: 15px;
+	padding-right: 135px;
+}
+.head-padding{
+	height: auto;
+	padding-top: 15px;
+	padding-left: 135px;
+}
+.profile{
+	position: fixed;
+	z-index: 1;
+	float: right;
+}
+.banner-1{
+	padding: 0;
+	background-image: linear-gradient(to right,#003D48, #DF0000);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+}
+.banner-wrap{
+	padding-left: 135px;
+	padding-right: 135px;
+
+}
+.profile-txt{
+	font-size: 20px;
+	position: absolute;
+	right: 7.6%;
+	padding: 0px;
+	margin-top: auto;
+}
+.banner-wrap h1, .banner-wrap p {
+	font-weight: bold;
+	font-family: Blody;
+	color: white;
+	font-size: 60px;
+}
+.banner-wrap p {
+	margin: 0;
+	margin-top: 200px;
+}
+.logx1{
+	padding-bottom: 0px;
+	border-radius: 29px  29px  0 0;
+}
+.signx1{
+	padding-top: 0px;
+}
+.helpx1{
+	border-radius:  0 0 29px  29px;
+}
+.profile-img {
+	float: right;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+	height: 60px;
+	background: #FFFFFF url("User- Dropdown.svg");
+	background-repeat: no-repeat;
+	background-position: 16px;
+	width: 100px;
+	border-radius: 29px;
+	color: black;
+	font-size: 22px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+ 	box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.3);
+
+}
+.dropbtn:focus{
+	outline: none;
+}
+.dropdown {
+  	position: relative;
+  	display: inline-block;
+}
+.dropdown-content {
+	background-color: #FFFFFF;
+	border-radius: 22px;
+	border: 1px black;
+	margin-top: 5px !important;
+	display: block;
+  margin-right: 110px;
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+	width: 224px;
+	height: 58px;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown a:hover {
+	background-color: #F3F3F3;
+}
+.show {
+	display: block;}
+/*========================== Break ==============================*/
+.explore-btn{
+	background: #FFFFFF url("explr.svg");
+	background-repeat: no-repeat;
+	background-position: 330px 3px;
+	border: 1px solid white;
+	border-radius: 30px;
+	font-size: 27px;
+	width: 388px;
+	height: 59px;
+}
+.explore-btn:active, .explore-btn:focus{
+	-moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+.explore-btn:hover{
+		box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.3);
+}
+/*======================== Button Group =======================*/
+.btn-group{
+	height: 83px;
+	background: white;
+	border-radius: 47px;
+}
+.centre{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-group select, .btn-group input, .btn-group option {
+	text-align: center;
+  background-color: #ffffff; /* Green background */
+  border: 0px solid white; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+.btn-group div{
+	text-align: center;
+	background-color: #ffffff; /* Green background */
+	border: 0px solid white; /* Green border */
+	color: black; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left;
+
+}
+.open{
+	background: url("ico/Location.svg");
+	background-repeat: no-repeat;
+	background-position: 25px 10px;
+  border-radius: 47px 0 0 47px;
+	width: 200px;
+	height: 83px;
+}
+.pik-1{
+	width: 200px;
+	height: 83px;
+}
+.pik-2{
+	background: url("ico/Room.svg");
+	background-repeat: no-repeat;
+	background-position:25px 10px;
+	text-align: left;
+	width: 150px;
+	height: 83px;
+}
+
+.closee{
+	background: url("ico/Search.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0px;
+	width: 82px;
+	height: 83px;
+	border-radius: 0 47px 47px 0;
+	padding: 0;
+}
+.secl{
+	border-radius: 0 47px 47px 0;
+}
+.pik:hover, .pik:active, .pik:focus,
+.pik-2:hover, .closee:active, .closee:hover, .closee:focus,
+.open:hover, .open:active, .open:focus{
+border-radius: 40px;
+}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group select:not(:last-child), .btn-group button:not(:last-child), .btn-group input:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group select:hover, .btn-group button:hover, .btn-group input:hover,.btn-group input:focus {
+  background-color: #E2E2E2;
+}
+.btn-group button:active, .btn-group button:focus{
+	-moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+/*-------*/
+.custom-select {
+	border-radius: 47px 0 0 47px;
+	width: 239px;
+	height: 83px;
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+	border-radius: 47px 0 0 47px;
+	width: 239px;
+	height: 83px;
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #000000;
+  padding: 8px 16px;-3-
+
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*==================================POPUP================================ */
+    .popup-overlay, .popup-overlay-2 {
+      position:fixed;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100vh;
+      z-index:1;
+      background:rgba(0,0,0,0.5);
+      display:none;
+    }
+    .popup, .popup-2 {
+      position:absolute;
+			border-radius: 30px;
+      top:-150%;
+      left:50%;
+      transform:translate(-50%,-50%) scale(1.15);
+      width:600px;
+      background:#f5f5f5;
+      z-index:2;
+      opacity:0;
+      box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+      transition:transform 300ms ease-in-out,opacity 300ms ease-in-out;
+    }
+    body.showLoginForm .popup-overlay, body.showLoginForm-2 .popup-overlay-2{
+      display:block;
+    }
+    body.showLoginForm .popup, body.showLoginForm-2 .popup-2 {
+      top:50%;
+      opacity:1;
+      transform:translate(-50%,-50%) scale(1);
+    }
+    .popup .popup-close, .popup-2 .popup-close-2 {
+      position:absolute;
+      top:-10px;
+      right:-10px;
+      width:40px;
+      height:40px;
+      background:#555;
+      color:#f5f5f5;
+      font-size:25px;
+      font-weight:600;
+      text-align:center;
+      border-radius:50%;
+      cursor:pointer;
+    }
+    .popup .form .avatar, .popup-2 .form .avatar {
+      margin:30px 0px 20px;
+      text-align:center;
+    }
+    .popup .form .avatar img,  .popup-2 .form .avatar img {
+      width:120px;
+    }
+    .popup .form .header, .popup-2 .form .header  {
+      text-align:center;
+      font-size:20px;
+      font-weight:600;
+      color:#222;
+      margin:20px 0px;
+    }
+    .popup .form .element,.popup .form .element-1,
+		.popup-2 .form .element,.popup-2 .form .element-1 {
+      padding:8px 20px;
+    }
+		.popup .form .element-1
+		.popup .form .element label,
+		.popup-2 .form .element-1
+		.popup-2 .form .element label {
+      display:block;
+      font-size:14px;
+      color:#222;
+      margin-bottom:5px;
+    }
+    .popup .form .element input, .popup-2 .form .element input {
+      width:100%;
+      padding:8px 10px;
+      box-sizing:border-box;
+      outline:none;
+      border:1px solid #aaa;
+      background:#eee;
+      border-radius:5px;
+    }
+    .popup .form .element-1 button, .popup-2 .form .element-1 button {
+      margin-top:5px;
+      width:50%;
+			margin-left: 140px;
+      padding:10px 0px;
+      text-transform:uppercase;
+      outline:none;
+      border:none;
+      font-size:15px;
+      font-weight:600;
+      border-radius:20px;
+      cursor:pointer;
+      background:#FF1010;
+      color:#f5f5f5;
+    }
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.popcontent{
+	margin-left: 10%;
+}
+.inbutton{
+	font-family: Proxima;
+	display: inline-flex;
+	margin: 70px;
+	margin-top: 0px;
+}
+.citybutton{
+	height: 134px;
+	width: 135px;
+	border-radius: 36px;
+	border: 0px;
+	display: block;
+}
+.intext{
+	width: 100px;
+	margin-top: 45px;
+	font-size: 25px;
+	padding-left: 5px;
+	display: block;
+	text-overflow: ellipsis;
+}
+.citybutton:active, .citybutton:focus{
+	-moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+.citybutton:hover{
+box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+}
+.popico-1{
+	background: url("ico/birds_in_the_sky_58147.png");
+	background-position: center;
+}
+.popico-2{
+	background: url("ico/101682903-pink-sweet-gradient-sky-cloud-background-for-art-decoration-wallpaper.png");
+}
+.popico-3{
+background: url("ico/cloudy_sky_painting_colorful_classical_design_6841325.png");
+background-position: center;
+}
+.popico-4{
+	background: url("ico/scenic_painting_night_sky_lighthouse_decor_colorful_flat_6841323.png");
+	background-position: center;
+}
+.popico-5{
+	background: url("ico/beautiful_sunset_01.jpg");
+	background-position: center;
+}
+.popico-6{
+	background: url("ico/Forest 05.jpg");
+	background-position: center;
+}
+.popico-7{
+	background: url("ico/Landscape 01.jpg");
+	background-position: center;
+}
+.adsbanner{
+	border-radius: 80px;
+	background-color: #F6D5D5;
+	text-align: center;
+	justify-content: center;
+	width: 1500px;
+	height: 550px;
+	border: 1px  none;
+	box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+}
+.popbanner{
+	display: block;
+	margin-left: 10%;
+	display: block;
+	justify-content: center;
+	padding-bottom: 75px;
+}
+.adsbanner:active, .adsbanner:focus{
+	-moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+
+.testibanner{
+	padding-top: 50px;
+	display: inline-flex;
+	text-align: center;
+	width: 1500px;
+	height: 425px;
+	border-radius: 22px;
+	border: 1px solid black;
+}
+.testitext{
+	margin-left: 45%;
+	font-size: 30px;
+	font-family: Blody;
+}
+.testicontent{
+	padding: 20px;
+	height: 438px;
+	width: 405px;
+}
+.foot{
+	height: 300px;
+	background-color: #505050;
+}
+img.resize{
+	border-radius: 100%;
+	width: 37px;
+	height: 37px;
+}
+.cin{
+	background: url("ico/Check-in.svg");
+	background-repeat: no-repeat;
+	background-position: 50px 10px;
+}
+.cout{
+	background: url("ico/Check-out.svg");
+	background-repeat: no-repeat;
+	background-position: 50px 10px;
+}
+/*==================================POPUP================================ */
+@media screen and (max-width: 1366px) {
+
+}

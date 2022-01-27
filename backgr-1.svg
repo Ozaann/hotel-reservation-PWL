@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="759" viewBox="0 0 1920 759">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: #707070;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.563" y1="1.321" x2="0.41" y2="-0.231" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbcd8"/>
+      <stop offset="0.249" stop-color="#ffad82"/>
+      <stop offset="1" stop-color="#00b6c2"/>
+    </linearGradient>
+  </defs>
+  <g id="backgr-1" class="cls-1">
+    <path class="cls-2" d="M 1919.5 758.5 L 928.1161499023438 758.5 L 0.49993896484375 758.5 L 0.49993896484375 0.5 L 1919.5 0.5 L 1919.5 758.5 Z"/>
+    <path class="cls-3" d="M 0.9998779296875 1 L 0.9998779296875 758 L 928.1161499023438 758 L 1919 758 L 1919 1 L 0.9998779296875 1 M -0.0001220703125 0 L 1920 0 L 1920 759 L 928.1161499023438 759 L -0.0001220703125 759 L -0.0001220703125 0 Z"/>
+  </g>
+</svg>

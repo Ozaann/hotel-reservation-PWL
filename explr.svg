@@ -1,0 +1,31 @@
+<svg id="explr" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff1010;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="26" cy="26" r="26"/>
+  <g id="Rectangle_110" data-name="Rectangle 110" class="cls-2" transform="translate(9 24)">
+    <rect class="cls-4" width="29" height="3"/>
+    <rect class="cls-5" x="0.5" y="0.5" width="28" height="2"/>
+  </g>
+  <path id="Path_17" data-name="Path 17" class="cls-3" d="M1120.2,1208.674l12.178,8.977-12.178,9.023,7.888-9.023Z" transform="translate(-1092.276 -1192.089)"/>
+</svg>

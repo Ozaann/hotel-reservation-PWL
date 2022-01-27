@@ -1,0 +1,11 @@
+@font-face {
+	src: url(fonts/Proxima-Regular.otf);
+	font-family: Proxima;
+}
+@font-face {
+	src: url(fonts/Proxima-Bold.otf);
+	font-family: Blody;
+}
+body{
+  font-family: Proxima;
+}

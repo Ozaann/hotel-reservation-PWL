@@ -1,0 +1,152 @@
+/*=========MOBILE Styling=========== */
+@media screen and (max-width: 860px){
+	.wrap{
+	}
+}
+@media screen and (max-width: 500px){
+	.centre{
+		padding-left: 0px;
+		left: 0px;
+	}
+	.logo{
+		width: 100px;
+		height: 40px;
+	}
+	.profile{
+		width: 77.71px;
+		height: 35px;
+		padding: 0;
+	}
+	.Grid{
+			grid-column-gap: 10px;
+			grid-template-areas:
+			"left-1 left-1"
+			"right-1 right-1"
+			"left-2 left-2"
+			"right-2 right-2"
+			"left-3 left-3"
+			"right-3 right-3"
+			"left-4 left-4"
+			"right-4 right-4"
+			"left-5 left-5"
+			"right-5 right-5"
+			;
+	}
+	.left-1{
+		padding-top: 22px;
+	}
+	.left-2, .left-3, .left-4, .left-5 {
+	padding-top: 10px;
+	}
+	.right-1, .right-2, .right-3, .right-4, .right-5 {
+		padding-top: 10px;
+	}
+	.wrap, .Grid {
+		margin: auto;
+	}
+	.content-button{
+		padding-top: 0px;
+		border-radius: 24px;
+		width: 358px;
+		height: 160px;
+	}
+
+
+	.content-image {
+		border-radius: 24px;
+		width: 119px;
+		height: 117px;
+	}
+	.Heading-content{
+	  font-size: 15px;
+	  margin: 0px;
+	 }
+	.paragraph-content {
+    font-size: 10px;
+	 }
+/*---------------------------HEADING--------------------------- */
+	.heading > div {
+			padding-top: 90px;
+			font-size: 30px;
+	}
+/*----------------------------DROPDOWN-------------------------- */
+	.drpimg-1{
+		width: 24px;
+		height: 20px;
+	}
+	.drpimg-2{
+		  width: 20px;
+			height: 19px;
+	}
+	.dropbtn {
+	  	border-radius: 29px;
+	  	width: 99px;
+	  	height: 31px;
+	  	font-size: 10px;
+		}
+	.dropdown {
+		}
+
+	.dropdown-content, .dropdown-content-1 {
+	  	min-width: 99px;
+			font-size: 10px;
+	  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  	z-index: 1;
+		}
+
+	.dropdown-content a, .dropdown-content-1 a  {
+		color: black;
+		width: 130px;
+		height: 35px;
+		font-size: 10px;
+		padding: 10px 10px;
+		}
+	.apply {
+				border: 1px solid white;
+				background-color: #5E74FF;
+				border-radius: 20px;
+				height: 20px;
+				width: 150px;
+		}
+		.dropbtn-1 {
+				background-color: #FFFFFF;
+				width: 77px;
+				height: 35px;
+				border-radius: 29px;
+				color: black;
+				font-size: 22px;
+				border: 1px solid #707070;
+				cursor: pointer;
+			}
+			.profile {
+					font-size: 20px;
+			  	position: absolute;
+			  	right: 7.6%;
+					margin-top: 0;
+			 	}
+				.profile-txt{
+					font-size: 20px;
+			  	position: absolute;
+			  	right: 7.6%;
+					padding: 0px;
+					margin-top: auto;
+
+				}
+			.drop-img{
+				width: 23px;
+				height: 21px;
+				margin-bottom:9px;
+			}
+			.profile-img {
+					float: right;
+					width: 27px;
+					height: 27px;
+			}
+			.profile-txt-2{
+				height: 30px;
+			}
+			.profile-txt-1{
+				height: 40px; width: 130px;
+			}
+/*------------------------------------------------------------- */
+}

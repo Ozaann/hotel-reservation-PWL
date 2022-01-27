@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="30" viewBox="0 0 79 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0c0000;
+        font-size: 25px;
+        font-family: ProximaNova-Bold, Proxima Nova;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Guests" class="cls-1" transform="translate(0 23)"><tspan x="0" y="0">Guests</tspan></text>
+</svg>

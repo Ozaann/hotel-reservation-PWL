@@ -1,0 +1,200 @@
+@font-face {
+	src: url(fonts/Proxima-Regular.otf);
+	font-family: Proxima;
+}
+@font-face {
+	src: url(fonts/Proxima-Bold.otf);
+	font-family: Blody;
+}
+body{
+  font-family: Proxima;
+}
+.container{
+  max-width: 1000px;
+}
+img.resize{
+	width: 37px;
+	height: 37px;
+}
+.dropbtn{
+	height: 60px;
+	border: 1px solid lightgrey;
+}
+.padding{
+ 	z-index: 2;
+	padding: 10px;
+	box-shadow: 0px 3px 40px #00000039;
+	background-color: #ffffff;
+	width: auto;
+  padding-left: 7.6%;
+ 	padding-top: 1%;
+ 	padding-bottom: 1%;
+	border: 1px;
+	box-shadow: 0px 1px rgba(0,0,0,0.3);
+}
+.profile{
+  right: 7.6%;
+}
+.dropdown-content{
+	right: -109px;
+}
+/*======================================================================*/
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+#Account {background-color: #F8F8F8;}
+#Edit {background-color: #F8F8F8;}
+#History {background-color: #F8F8F8;}
+#Active {background-color: #F8F8F8;}
+#Verify {background-color: #F8F8F8;}
+
+.wrap{
+	align-content: center;
+	display: inline-flex;
+}
+.wrap2{
+	align-content: center;
+	display: block;
+}
+.profobox{
+	align-content:center;
+	text-align: center;
+	margin-left: 100px;
+	border: 0px ;
+	height: 250px;
+	width: 250px;
+}
+.profobox form{
+	padding-top: 20px;
+}
+.profobox h1{
+	font-size: 30px;
+	padding-top: 20px;
+}
+.profobox input{
+	margin-top:  10px;
+}
+
+img.profoimg{
+	border-radius: 100px;
+	border: 2px solid grey;
+	width: 150px;
+	height: 150px;
+}
+.acctbox{
+	 	margin-left: 125px;
+		height: 250px;
+		border: 0px;
+}
+.acctbox h5{
+	font-weight: bold;
+}
+.acctbox button{
+	padding: 5px;
+	border: 0px;
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	margin-top: 28px;
+}
+.element{
+	padding-top: 10px;
+}
+.element label{
+	display: block;
+}
+.element button{
+	padding-top: 10px;
+}
+.element input {
+	border: 0px;
+	width: 250px;
+}
+.spantrans{
+	margin-top: 22px;
+	box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+	display: inline-flex;
+	border: 1px solid black;
+	border-radius: 25px;
+	width: 930px;
+	height: 200px;
+}
+.transpic{
+	margin: 8px;
+	display: inline-flex;
+	border: 0px solid black;
+	border-radius: 25px;
+	width: 180px;
+	height: 180px;
+}
+.transtext{
+	height: auto;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.transtext h4{
+	font-weight: bold;
+}
+
+.transbutton{
+
+}
+.inavailable{
+	 display: none;
+}
+.stats{
+margin-top: 50px;
+}
+.verfing{
+	color: red;
+}
+.verfed{
+	color: #0EDB9C;
+}
+.transbutton{
+	margin-left: 350px;
+	margin-top: 10px;
+}
+.transbtn{
+	margin-top: 115px;
+	margin-left: 115px;
+	right: 0px;
+	background-color: red;
+	height: 40px;
+	color: white;
+	width: 100px;
+	border-radius: 10px;
+	border: 0px;
+}
+.smoll{
+	font-size: 15px;
+}
+.transbtn:active, .transbtn:focus{
+	-moz-outline-style: none;
+	outline:none;
+	outline: 0;
+}
+.inactive {
+	display: none;
+}

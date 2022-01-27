@@ -1,0 +1,54 @@
+@media screen and (max-width: 1366px){
+  .wrap{
+  	width: 890px;
+  	height: 293px;
+  	margin-left: 195px;
+  	margin-right: 195px;
+  }
+  .grid{
+  	grid-column-gap: 10px;
+  	grid-row-gap: 5px;
+  	;
+  }
+  .left-1{
+  	width: 338px;
+  	height: 293px;
+  }
+  .center-1, .center-2{
+  	width: 293px;
+  	height: 144px;
+  }
+  .right-1{
+  	width: 239px;
+  	height: 293px;
+  }
+.centre{
+  margin-left: 0;
+}
+.inbutton{
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.citybutton{
+  height: 90px;
+  width: 90px;
+  border-radius: 25px;
+}
+.intext{
+  font-size: 15px;
+  padding-left: 5px;
+}
+.adsbanner{
+	border-radius: 80px;
+	width: 1050px;
+	height: 350px;
+}
+.testibanner{
+  width: 1050px;
+	height: 400px;
+}
+}
+
+@media screen and (max-width: 500px){
+
+}

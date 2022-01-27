@@ -1,0 +1,10 @@
+@font-face {
+	src: url(fonts/Proxima-Regular.otf);
+	font-family: prox;
+}
+.padd{
+  height: auto;
+	padding-top: 100px;
+	padding-left: 142px;
+	padding-right: 142px;
+}

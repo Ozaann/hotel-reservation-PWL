@@ -1,0 +1,35 @@
+<svg id="Search" xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #df0000;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="38.5" cy="38.5" r="38.5"/>
+  <g id="Ellipse_6" data-name="Ellipse 6" class="cls-2" transform="translate(20 20)">
+    <circle class="cls-4" cx="14.5" cy="14.5" r="14.5"/>
+    <circle class="cls-5" cx="14.5" cy="14.5" r="13.25"/>
+  </g>
+  <line id="Line_1" data-name="Line 1" class="cls-3" x2="13.623" y2="8.875" transform="translate(43.5 42.5)"/>
+</svg>

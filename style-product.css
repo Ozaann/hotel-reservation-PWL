@@ -1,0 +1,232 @@
+@font-face {
+	src: url(fonts/Proxima-Regular.otf);
+	font-family: prox;
+}
+.wrap{
+	width: 1500px;
+	margin-left: 10.9%;
+	margin-right: 10.9%;
+}
+.heading > div {
+    padding-top:112px;
+    padding-bottom: 0.5%;
+    font-size: 60px;
+    font-family: prox;
+}
+.dropbtn {
+	height: 60px;
+	background: #FFFFFF url("User- Dropdown.svg");
+	background-repeat: no-repeat;
+	background-position: 16px;
+	width: 100px;
+	border-radius: 29px;
+	color: black;
+	font-size: 22px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.grid-facilities{
+	width: fit-content;
+	align-content: st;
+	font-family: prox;
+	display: grid;
+	grid-column-gap: 17px;
+	grid-row-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"fcleft-1 fcright-1"
+	"fcleft-2 fcright-2"
+	;
+}
+.fcleft-1{
+	grid-area: fcleft-1;
+}
+.fcleft-2{
+	grid-area: fcleft-2;
+}
+.fcright-1{
+	grid-area: fcright-1;
+}
+.fcright-2{
+	grid-area: fcright-2;
+}
+
+.fcico{
+	float: left;
+}
+
+.fccontent{
+	width: 300px;
+	height: 56px;
+	font-size: 35px;
+}
+
+.fccontent p{
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.grid-photo{
+	width: fit-content;
+	align-content: st;
+	font-family: prox;
+	display: grid;
+	grid-column-gap: 17px;
+	grid-row-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas:
+	"left-1 center-1 right-1"
+	"left-1 center-2 right-1"
+	;
+
+}
+.left-1{
+	grid-area: left-1;
+	border-radius: 22px 0 0 22px;
+	background-color: #FFBCBC;
+	border: 1px solid black;
+	width: 570px;
+	height: 496px;
+}
+.center-1{
+	grid-area: center-1;
+	border: 1px solid black;
+	background-color: #FFBCBC;
+	width: 495px;
+	height: 240px;
+}
+.center-2{
+	grid-area: center-2;
+	border: 1px solid black;
+	background-color: #FFBCBC;
+	width: 495px;
+	height: 240px;
+}
+.right-1{
+	border-radius: 0 20px 20px 0;
+	grid-area: right-1;
+	border: 1px solid black;
+	background-color: #FFBCBC;
+	width: 403px;
+	height: 496px;
+}
+
+.content-image{
+	width: 570px;
+	height: 496px;
+	border-radius: 22px 0 0 22px;
+}
+
+.btn-book{
+	width: 100px;
+	height: 140px;
+	background-color: #FFBCBC;
+	border: 1px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+
+}
+
+.rectangle {
+	border: none;
+	width: 280px;
+	height: 120px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+	border-radius: 20px 20px 20px 20px;
+	border-style: outset;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  position: relative;
+	left: 15px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.yes{
+    color: black;
+}
+.no{
+    color: lightgrey;
+}
